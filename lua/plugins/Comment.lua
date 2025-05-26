@@ -5,6 +5,6 @@ return {
     require("Comment").setup()
   end,
   keys = {
-    { "<leader>/", mode = { "n", "v" }, desc = "Toggle comment" },
+    { "<leader>cb", mode = { "n", "v" }, desc = "Toggle comment" },
   },
 }
